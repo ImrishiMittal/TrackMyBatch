@@ -65,7 +65,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-Coming soon…
+(https://trackmybatch.netlify.app/)
 
 ---
 
