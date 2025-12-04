@@ -1,16 +1,78 @@
-# React + Vite
+# TrackMyBatch
+A modern, responsive homepage built as part of the TrackMyBatch assignment.
+Designed with a focus on clean UI, simple component structure, and smooth responsiveness across all screen sizes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧭 Navbar with brand logo and navigation links  
+- 🎯 Hero section with headline, subtext, and CTA  
+- 🔘 Primary call-to-action button  
+- 📊 Dashboard preview card showing analytics  
+- 📱 Fully responsive UI (mobile → desktop)  
+- 🎨 Modern gradient text, soft shadows, and clean spacing  
+- ⚛️ Built using React + Vite for fast development  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React  
+- Vite  
+- CSS  
+- JavaScript (ES6+)  
+- Vercel (for deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+├── assets/         # images, logo, icons
+├── NavBar/         # navbar component
+├── Hero/           # hero + right card section
+├── App.jsx         # root component
+├── App.css         # main styles
+├── index.css       # global styles
+└── main.jsx        # app entry point
+
+````
+
+---
+
+## 🧪 Running Locally
+
+```bash
+npm install
+npm run dev
+````
+
+App will run at:
+`http://localhost:5173`
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Live Demo
+
+Coming soon…
+
+---
+
+## 📄 About
+
+This project was created as an assignment to demonstrate front-end development skills, UI design approach, responsiveness, and component organization using React.
+
+````
+
+
